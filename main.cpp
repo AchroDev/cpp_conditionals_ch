@@ -7,7 +7,7 @@ int main()
     for(int i = 0; i < 5; i++)
     {
         if (i > 2)
-            continue; // can only be inside a loop, says go to next iteration.
+            break; // breaks out of the loop, doesn't change anything in this instance.
         Log("Hello World");
     }
      
