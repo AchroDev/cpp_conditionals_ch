@@ -11,5 +11,5 @@ int main()
         Log("Hello World");
     }
      
-    std::cin.get(); // this code will never get executed as a return of 0 has already been provided.
+    std::cin.get(); // this code will never get executed as a return of 0 has already been provided once i is > than 2.
 }
