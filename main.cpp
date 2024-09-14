@@ -3,27 +3,13 @@
 
 int main()
 {
-    // For loop
+    
     for(int i = 0; i < 5; i++)
     {
-        Log("this is a for loop");
+        if (i > 2)
+            continue; // can only be inside a loop, says go to next iteration.
+        Log("Hello World");
     }
-    
-    
-    // While loop
-    int i = 0;
-    while(i < 3)
-    {
-        Log("this is a while loop");
-        i++;
-    }
-    
-    // Do-while Loop
-    do
-    {
-        
-    } while(i < 5);
-    
-    Log("Hello World!");    
+     
     std::cin.get();
 }
