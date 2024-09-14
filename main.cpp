@@ -6,7 +6,7 @@ int main()
     
     for(int i = 0; i < 5; i++)
     {
-        if (i > 2)
+        if ((i + 1) % 2 == 0)
             return 0; // forces a return of 0 from the function, once i is > than 2.
         Log("Hello World");
     }
