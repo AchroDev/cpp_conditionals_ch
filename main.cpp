@@ -1,7 +1,15 @@
-#include <stdio.h>
+#include <iostream>
+#include "Log.h"
 
-int main(int argc, char **argv)
+int main()
 {
-	printf("hello world\n");
-	return 0;
+    int x = 5;
+    bool comparisonResult = x == 5;
+    if (comparisonResult) 
+    {
+        Log("Hello World");
+    }
+    
+    
+    std::cin.get();
 }
