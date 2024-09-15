@@ -1,0 +1,1 @@
+build-Debug/main.cpp.o build-Debug/log.cpp.o
